@@ -14,5 +14,6 @@ const $abilities = $('#abilities');
 const $height = $('#height');
 
 // event listeners
+$form.on('submit', handleSubmit)
 
 // functions
