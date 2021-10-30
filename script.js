@@ -14,6 +14,18 @@ const $abilities = $('#abilities');
 const $height = $('#height');
 
 // event listeners
-$form.on('submit', handleSubmit)
+$form.on('submit', handleSearch)
 
 // functions
+function handleSearch(e){
+    e.preventDefault();
+    const pokemonName = $input.val();
+
+    $.ajax(`${BASE_URL}${pokemonName}`)
+        .then(function(data){
+            pokemonData = data
+            render();
+        }, function(error){
+            console.log(error);
+        });
+}
