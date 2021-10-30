@@ -32,5 +32,11 @@ function handleSearch(e){
 
 function render(){
     $main.html(`
+    <img src="${pokemonData.sprites.front_default}" alt="${pokemonData.name}" />
+    <p>Name:</p>
+    <p id="name">${pokemonData.name}</p>
+    <p id="moves">${pokemonData.moves}</p>
+    <p id="abilities">${pokemonData.abilities}</p>
+    <p id="height">${pokemonData.height}</p>
     `);
 }
