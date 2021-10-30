@@ -29,3 +29,8 @@ function handleSearch(e){
             console.log(error);
         });
 }
+
+function render(){
+    $main.html(`
+    `);
+}
