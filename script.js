@@ -10,8 +10,8 @@ const $form = $('form');
 const $input = $("input[type='text']");
 const $name = $('#name');
 const $moves = $('#moves');
-const $abilities = $('#abilities');
-const $height = $('#height');
+const $stats = $('#stats');
+const $id = $('#id');
 
 // event listeners
 $form.on('submit', handleSearch)
@@ -33,10 +33,13 @@ function handleSearch(e){
 function render(){
     $main.html(`
     <img src="${pokemonData.sprites.front_default}" alt="${pokemonData.name}" />
-    <p>Name:</p>
+    <p>Pokedex Number: </p>
+    <p id="id"># ${pokemonData.id}</p>
+    <p>Name: </p>
     <p id="name">${pokemonData.name}</p>
-    <p id="moves">${pokemonData.moves}</p>
-    <p id="abilities">${pokemonData.abilities}</p>
-    <p id="height">${pokemonData.height}</p>
+    <p>Move: </p>
+    <p id="moves">${pokemonData.moves[0].move.name}, ${pokemonData.moves[1].move.name} & ${pokemonData.moves[5].move.name}</p>
+    <p>Base Stat: </p>
+    <p id="stats">${pokemonData.stats[0].base_stat}</p>
     `);
 }
