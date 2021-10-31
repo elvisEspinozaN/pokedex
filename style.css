@@ -3,12 +3,6 @@
     margin: 0;
 }
 
-header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 body{
     background-color: rgb(189, 164, 164);
     display: flex;
@@ -19,8 +13,10 @@ body{
 header, footer{
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 5rem;
     color: rgb(218, 165, 32);
+    text-shadow: 2px 3px 5px #000000;
 }
 
 main{
