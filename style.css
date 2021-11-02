@@ -28,6 +28,18 @@ form{
     display: inline-block;
 }
 
+#input{
+    border-radius: .3125rem;
+}
+
+#search{
+    border-radius: .3125rem;
+}
+
+#randomizer{
+    border-radius: .3125rem;
+}
+
 .footer{
     padding: 20px;
     bottom: 0;
