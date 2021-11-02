@@ -28,6 +28,17 @@ main{
     transform: translate(-50%, -50%);
 }
 
+p{
+    margin-bottom: 1rem;
+}
+
+.mainEl{
+    text-align: left;
+    margin-top: 10px;
+    background-color: lavender;
+    box-shadow: 3px 3px 0 0 black;
+}
+
 form{
     display: inline-block;
 }
