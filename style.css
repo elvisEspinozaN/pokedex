@@ -8,6 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: serif;
+    text-align: center;
 }
 
 header, footer{
@@ -21,6 +22,14 @@ header, footer{
 
 main{
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: inline-block;
 }
 
 footer{
