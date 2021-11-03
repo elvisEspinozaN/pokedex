@@ -19,4 +19,5 @@ A pokédex that displays Pokémon descriptions fetched by a pokéapi
 
 ## Future Enhancements
 
-- It's a working progress
+- Trying to improve the CSS
+- Make the Randomizerr button working; it would randomly pick data based on the objects 'id  number' and dispplay it for us.
