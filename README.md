@@ -20,3 +20,9 @@ A pokédex that displays Pokémon descriptions fetched by a pokéapi
 [*Click here*](#) to the site live
 
 ## Future Enhancements
+<<<<<<< HEAD
+=======
+
+- Attempting to improve CSS
+- Functionable "Randomizer button"; it would pull random object data based on it's 'id number' and display it for us.
+>>>>>>> 29cd0d8ed97e328dd55f5059c892364be808815a
