@@ -2,6 +2,10 @@
 
 A pokédex that displays Pokémon descriptions fetched by a pokéapi
 
+An available input text bar to search for their deseriable Pokemon
+
+As well as a random button that would fetch a random pokemon based solely on it's 'id' number
+
 ## Technologies Used
 
 - HTML5
@@ -23,4 +27,4 @@ A pokédex that displays Pokémon descriptions fetched by a pokéapi
 
 - Attempting to improve CSS
 - Allow user to select pokemon of choice
-- Add a pokedex bakcground
+- Add a pokedex background
