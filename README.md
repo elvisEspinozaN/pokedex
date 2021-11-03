@@ -21,7 +21,7 @@ As well as a random button that would fetch a random pokemon based solely on it'
 
 ## Getting Started
 
-[*Click here*](https://mypokedex01.netlify.app/) to the site live
+[*Click here*](https://mypokedex01.netlify.app/) to see the site live
 
 ## Future Enhancements
 
