@@ -23,7 +23,7 @@ $random.on('click', handleRandom)
 
 function handleRandom(e){
     e.preventDefault();
-    const pokemonId = Math.floor(Math.random() * 200) + 1
+    const pokemonId = Math.floor(Math.random() * 700) + 1
     $.ajax(`${BASE_URL}${pokemonId}`)
     .then(function(data){
         pokemonData = data
