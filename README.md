@@ -17,7 +17,7 @@ A pokédex that displays Pokémon descriptions fetched by a pokéapi
 
 ## Getting Started
 
-[*Click here*](#https://mypokedex01.netlify.app/) to the site live
+[*Click here*](https://mypokedex01.netlify.app/) to the site live
 
 ## Future Enhancements
 
