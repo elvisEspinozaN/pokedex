@@ -11,13 +11,12 @@ A pokédex that displays Pokémon descriptions fetched by a pokéapi
 
 ## Screenshots
 
+<img width="450" alt="Screen Shot 2021-11-02 at 17 34 12" src="https://user-images.githubusercontent.com/91039252/139959818-63b78de3-9b3d-4640-aa48-a60bed2b273d.png">
 
+<img width="400" alt="Screen Shot 2021-11-02 at 17 33 49" src="https://user-images.githubusercontent.com/91039252/139959778-9e9dfee5-7eb2-4178-bea2-22e7b9a0cb19.png">
 
 ## Getting Started
 
 [*Click here*](#) to the site live
 
 ## Future Enhancements
-
-- Trying to improve the CSS
-- Make the Randomizerr button working; it would randomly pick data based on the objects 'id  number' and dispplay it for us.
